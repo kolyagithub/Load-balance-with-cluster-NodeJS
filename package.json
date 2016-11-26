@@ -1,0 +1,32 @@
+{
+  "name": "load-balance-with-cluster",
+  "version": "1.0.0",
+  "description": "use load balance with cluster module in nodeJS app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolyagithub/Load-balance-with-cluster-NodeJS.git"
+  },
+  "keywords": [
+    "cluster",
+    "load-balance",
+    "redis"
+  ],
+  "author": "qudrat abdullaev  alimov.kolya@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolyagithub/Load-balance-with-cluster-NodeJS/issues"
+  },
+  "homepage": "https://github.com/kolyagithub/Load-balance-with-cluster-NodeJS#readme",
+  "dependencies": {
+    "async": "1.5.2",
+    "body-parser": "1.15.2",
+    "express": "4.13.4",
+    "morgan": "1.7.0",
+    "redis": "2.6.1",
+    "underscore": "1.8.3"
+  }
+}
